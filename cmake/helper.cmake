@@ -1,4 +1,4 @@
-
+list(APPEND CMAKE_PREFIX_PATH "/home/user/rls/raisimlib/raisim/linux")
 find_package(raisim CONFIG REQUIRED)
 
 function(create_executable app_name file_name)
